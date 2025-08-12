@@ -8,8 +8,8 @@ The app is mobile-responsive 📱 and includes a share feature for easy content 
 
 ## 📂 Project Structure
 
-serp_news_app/
-│
+serp_news_app/ <br>
+│ <br>
 ├── backend/                # ⚙️ Flask API server <br>
 │   ├── app.py               # 🚀 Main backend file <br>
 │   ├── requirements.txt     # 📦 Backend dependencies <br>
