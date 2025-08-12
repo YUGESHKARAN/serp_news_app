@@ -143,11 +143,8 @@ If you find a bug or want to suggest improvements, please open an issue first.
 This project is licensed under the MIT License.
 
 
-
 # 👨‍💻 Author
 [Yugesh Karan](https://github.com/YUGESHKARAN)
-
-```
 
 
 
