@@ -25,7 +25,7 @@ export default function TechNewsFeed() {
 
     try {
       const response = await axios.post("https://serp-news-app-1.onrender.com/tool", { query: searchTerm });
-      // const response = await axios.post("http://127.0.0.1:3000/tool", { query: searchTerm });
+      // const response = await axios.post("http://127.0.0.1:4000/tool", { query: searchTerm });
       if (response.status === 200) {
         cacheRef.current[searchTerm] = response.data;
         setSerpData(response.data);
@@ -85,6 +85,30 @@ export default function TechNewsFeed() {
     );
   };
 
+  const handleShare = async (url, title) => {
+    if (navigator.share) {
+      // ✅ Mobile & modern browsers
+      try {
+        await navigator.share({
+          title: title || "Check this out!",
+          text: "Found this interesting tech news:",
+          url: url,
+        });
+        console.log("Shared successfully!");
+      } catch (err) {
+        console.error("Error sharing:", err);
+      }
+    } else {
+      // 💻 Fallback for desktop browsers
+      try {
+        await navigator.clipboard.writeText(url);
+        alert("Link copied to clipboard!");
+      } catch (err) {
+        console.error("Failed to copy:", err);
+      }
+    }
+  };
+
 
   return (
 <div className="min-h-screen bg-gradient-to-b from-gray-900 via-neutral-900 to-black text-gray-100 p-4 sm:p-6">
@@ -141,7 +165,7 @@ export default function TechNewsFeed() {
          {paginatedData.map((item) => (
             <div
               key={item.link}
-              layout
+              // layout
               initial={{ opacity: 0, y: 8 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: -8 }}
@@ -202,7 +226,9 @@ export default function TechNewsFeed() {
                     <ExternalLink size={14} /> Read
                   </a>
 
-                  <button className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-transparent border border-neutral-700 text-sm hover:bg-neutral-800 transition">
+                  <button
+                  onClick={()=>{handleShare(item.link, item.title)}}
+                   className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-transparent border border-neutral-700 text-sm hover:bg-neutral-800 transition">
                     <Share2 size={14} /> Share
                   </button>
                 </div>
