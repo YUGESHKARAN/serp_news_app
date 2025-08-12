@@ -10,20 +10,20 @@ The app is mobile-responsive 📱 and includes a share feature for easy content 
 
 serp_news_app/ <br>
 │ <br>
-├── backend/                # ⚙️ Flask API server <br>
-│   ├── app.py               # 🚀 Main backend file <br>
-│   ├── requirements.txt     # 📦 Backend dependencies <br>
-│   └── .env                 # 🔑 API keys (not committed to GitHub) <br>
+├── backend/                <br>
+│   ├── app.py               <br>
+│   ├── requirements.txt      <br>
+│   └── .env                 <br>
 │ <br>
-├── frontend/                # 💻 React.js client app <br>
+├── frontend/                <br>
 │   ├── src/ <br>
-│   │   ├── App.jsx          # 🖥️ Main React component <br>
-│   │   ├── components/      # 🧩 Reusable UI components <br>
-│   │   └── pages/           # 📄 Application pages <br>
-│   ├── package.json         # 📦 Frontend dependencies <br>
-│   └── tailwind.config.js   # 🎨 Tailwind CSS configuration <br>
+│   │   ├── App.jsx           <br>
+│   │   ├── components/      <br>
+│   │   └── pages/            <br>
+│   ├── package.json          <br>
+│   └── tailwind.config.js  <br>
 │ <br>
-└── README.md                # 📜 Project documentation <br>
+└── README.md              <br>
 
 
 
