@@ -104,7 +104,7 @@ Frontend runs by default at http://localhost:5173 (Vite)
 | ------ | -------- | ---------------------- |
 | GET    | `/tool`  | Fetch latest tech news |
 
-```
+<br>
 
 # 📱 Mobile Responsiveness
 Optimized grid layout for mobile, tablet, and desktop.
@@ -112,7 +112,7 @@ Optimized grid layout for mobile, tablet, and desktop.
 Touch-friendly UI elements.
 
 Adaptive font sizes for readability.
-```
+<br>
 
 🛡 Environment Variables
 # Backend (backend/.env)
@@ -121,7 +121,7 @@ Copy
 Edit
 SERP_API_KEY=your_serp_api_key_here
 
-## 🏗 Build for Production
+# 🏗 Build for Production
 # Frontend
 bash
 Copy
@@ -131,13 +131,13 @@ npm run build
 
 Backend Deploy using any Python hosting platform (Render, Railway, Heroku, etc.).
 
-```
+<br>
 
 # 🤝 Contributing
 Pull requests are welcome!
 If you find a bug or want to suggest improvements, please open an issue first.
 
-```
+<br>
 
 # 📜 License
 This project is licensed under the MIT License.
