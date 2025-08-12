@@ -24,7 +24,8 @@ export default function TechNewsFeed() {
     }
 
     try {
-      const response = await axios.post("http://127.0.0.1:3000/tool", { query: searchTerm });
+      const response = await axios.post("https://serp-news-app-1.onrender.com/tool", { query: searchTerm });
+      // const response = await axios.post("http://127.0.0.1:3000/tool", { query: searchTerm });
       if (response.status === 200) {
         cacheRef.current[searchTerm] = response.data;
         setSerpData(response.data);
