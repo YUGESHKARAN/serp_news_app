@@ -1,6 +1,6 @@
 # 📰 SERP News App
 
-A **full-stack tech news application** that fetches the latest tech news from the [SerpAPI](https://serpapi.com/) using a **Flask backend** and displays it in a **React.js frontend** styled with **Tailwind CSS**.  
+A micro-SaaS news app for browsing news content, built with SerpAPI using a Flask backend and a React.js frontend styled with Tailwind CSS.
 
 The app is mobile-responsive 📱 and includes a share feature for easy content sharing across platforms.
 
