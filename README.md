@@ -1,6 +1,5 @@
 # 📰 SERP News App
-
-![GitHub license](https://img.shields.io/github/license/YUGESHKARAN/serp_news_app)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![GitHub last commit](https://img.shields.io/github/last-commit/YUGESHKARAN/serp_news_app)
 ![GitHub issues](https://img.shields.io/github/issues/YUGESHKARAN/serp_news_app)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/YUGESHKARAN/serp_news_app)
