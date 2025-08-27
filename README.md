@@ -1,5 +1,13 @@
 # 📰 SERP News App
 
+![GitHub license](https://img.shields.io/github/license/YUGESHKARAN/serp_news_app)
+![GitHub last commit](https://img.shields.io/github/last-commit/YUGESHKARAN/serp_news_app)
+![GitHub issues](https://img.shields.io/github/issues/YUGESHKARAN/serp_news_app)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/YUGESHKARAN/serp_news_app)
+![GitHub stars](https://img.shields.io/github/stars/YUGESHKARAN/serp_news_app)
+![GitHub forks](https://img.shields.io/github/forks/YUGESHKARAN/serp_news_app)
+![GitHub contributors](https://img.shields.io/github/contributors/YUGESHKARAN/serp_news_app)
+
 A micro-SaaS news app for browsing news content, built with [SerpAPI](https://serpapi.com/) using a Flask backend and a React.js frontend styled with Tailwind CSS.
 
 The app is mobile-responsive 📱 and includes a share feature for easy content sharing across platforms.
