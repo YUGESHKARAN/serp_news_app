@@ -29,7 +29,7 @@ def tech_news_agent():
     "start": startIndex,
     "gl": "us",
     "hl": "en",
-    "api_key": os.getenv("SERPAPI_API_KEY")
+    "api_key": os.getenv("SERP_API_KEY")
     }
 
     res = requests.get("https://serpapi.com/search.json", params=params)
